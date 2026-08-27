@@ -1,0 +1,5 @@
+scenario,n,A_accepted,A_improved,A_harmed,AB_accepted,AB_improved,AB_harmed,AB_fallback,mean_AB_minus_E3,mean_AB_minus_Aonly
+Gaussian,1800,658,426,232,526,395,131,1274,-0.016720,-0.010820
+Impulsive,1800,533,395,138,414,346,68,1386,-0.007180,-0.006080
+Baseline drift,1800,938,727,211,825,696,129,975,-0.055510,-0.043060
+Mixed,1800,847,505,342,645,478,167,1155,-0.035914,-0.027908

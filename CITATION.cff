@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Stage33 Public Release: Robust Multibasin Profiling with Physics-Protected Selective Structured-Residual Refinement for Thin-Film Thickness Inversion"
+type: software
+authors:
+  - family-names: "Wu"
+    given-names: "Guangshuo"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: "MIT"
+abstract: >-
+  Public software release supporting the thin-film thickness inversion study
+  "An Improved Robust Multibasin Profiling Framework with Physics-Protected
+  Selective Structured-Residual Refinement for Thin-Film Thickness Inversion".
+keywords:
+  - thin-film thickness inversion
+  - reflectance spectroscopy
+  - robust multibasin profiling
+  - structured-residual refinement
+  - selective gating

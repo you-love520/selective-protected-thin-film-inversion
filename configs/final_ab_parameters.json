@@ -1,0 +1,41 @@
+{
+  "schema": "stage33-final-ab-parameters/1.0",
+  "status": "frozen_for_manuscript_stage33",
+  "method_identity": "Final A+B selective protected refinement",
+  "anchor": {
+    "estimator": "E3 robust multibasin profile",
+    "fallback_rule": "return the exact E3 estimate when the B route rejects the candidate"
+  },
+  "development": {
+    "master_seed": 20260426,
+    "design": "3 materials x 3 thicknesses x 4 contamination scenarios x 200 observations = 7200 observations",
+    "role": "development-only threshold selection"
+  },
+  "independent_validation": {
+    "master_seed": 20260508,
+    "observation_namespace": "stage32val",
+    "design": "3 materials x 3 thicknesses x 4 contamination scenarios x 200 observations = 7200 observations"
+  },
+  "adaptive_protection": {
+    "eta2": "C2",
+    "second_order_status": "inactive for first-order cases and adaptive for second-order-active cases"
+  },
+  "b_routing": {
+    "selection_policy": "minimize harmful accepted refinements while retaining at least 90% of the A-only overall mean-AE benefit; break ties by more negative overall mean AE difference and then by fewer accepted refinements",
+    "max_basin_gap_rel": 5.0,
+    "min_local_identifiability": 0.82
+  },
+  "main_validation_results": {
+    "E3_mean_AE_nm": 0.22346482834614617,
+    "Final_AB_mean_AE_nm": 0.19463382834614615,
+    "A_only_accepted": 2976,
+    "A_only_improved": 2053,
+    "A_only_harmed": 923,
+    "Final_AB_accepted": 2410,
+    "Final_AB_improved": 1915,
+    "Final_AB_harmed": 495,
+    "Final_AB_fallback": 4790,
+    "mean_Final_AB_minus_E3_nm": -0.028831,
+    "mean_Final_AB_minus_A_only_nm": -0.021967
+  }
+}

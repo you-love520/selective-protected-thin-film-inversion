@@ -1,0 +1,22 @@
+{
+  "status": "DETERMINISTIC_REPRODUCTION_PASS",
+  "policy": "minimize worsened accepted cases subject to retaining at least 90% of the A-only overall mean-AE benefit; break ties by a more negative overall mean AE difference and then by fewer accepted cases",
+  "benefit_retention_fraction": 0.9,
+  "a_only_overall_mean_delta_ae_nm": -0.007279182218918455,
+  "eligible_grid_points": 4,
+  "selected": {
+    "max_basin_gap_rel": 5.0,
+    "min_local_identifiability": 0.82,
+    "accepted": 234,
+    "improved": "144",
+    "worsened": 90,
+    "unchanged": "0",
+    "improvement_fraction_accepted": "0.6153846153846154",
+    "accepted_mean_delta_ae_nm": "-0.2275959754169044",
+    "overall_mean_delta_ae_nm": -0.007396869201049394,
+    "accepted_q95_delta_ae_nm": "0.7168902186726694",
+    "max_worsening_nm": "3.232426492243235"
+  },
+  "input_sha256": "8d3feec513a5294166fcc9ab5de324ba5b10239897e75a468f18426596aaf9f7",
+  "grid_sha256": "7930afb506349bdf16365443ef2ba50d5b0ebf3fb5fc592f1a45d58869f48054"
+}

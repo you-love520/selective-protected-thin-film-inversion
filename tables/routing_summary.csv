@@ -1,0 +1,21 @@
+﻿metric,value
+A-only accepted,2976
+A-only improved,2053
+A-only harmed,923
+Final A+B accepted,2410
+Final A+B improved,1915
+Final A+B harmed,495
+B rejected harmful,428
+B rejected beneficial,138
+Harmful rejection rate,0.4637053087757313
+Harmful rejection CI low,0.4312026002166847
+Harmful rejection CI high,0.49512459371614304
+Beneficial retention rate,0.9327812956648807
+Beneficial retention CI low,0.9210910862152947
+Beneficial retention CI high,0.9434973209936678
+Global mean(A+B-A-only),-0.021967
+Global increment CI low,-0.025269148991749826
+Global increment CI high,-0.018629479836648123
+Global mean(A+B-E3),-0.028830999999999996
+Global A+B-E3 CI low,-0.03052947655407103
+Global A+B-E3 CI high,-0.02715935765102493

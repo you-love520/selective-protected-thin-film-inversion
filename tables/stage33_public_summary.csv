@@ -1,0 +1,11 @@
+metric,value
+n_observations,7200
+E3_MAE_nm,0.223464828346
+Final_AB_MAE_nm,0.194633828346
+A_only_accepted,2976
+A_only_improved,2053
+A_only_harmed,923
+Final_AB_accepted,2410
+Final_AB_improved,1915
+Final_AB_harmed,495
+Final_AB_fallback,4790

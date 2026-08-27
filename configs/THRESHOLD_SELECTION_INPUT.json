@@ -1,0 +1,7 @@
+{
+  "selection_policy": "minimize worsened accepted cases subject to retaining at least 90% of the A-only overall mean-AE benefit; break ties by a more negative overall mean AE difference and then by fewer accepted cases",
+  "benefit_retention_fraction": 0.9,
+  "a_only_overall_mean_delta_ae_nm": -0.007279182218918455,
+  "grid_file": "B_ROUTING_GRID.csv"
+}
+
